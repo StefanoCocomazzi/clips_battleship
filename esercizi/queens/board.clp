@@ -5,6 +5,23 @@
     (slot status (allowed-symbols free occupied unoccupiable ) (default free))
 )
 
+(deffacts numbers
+    (number -7)
+    (number -6)
+    (number -5)
+    (number -4)
+    (number -3)
+    (number -2)
+    (number -1)
+    (number 1)
+    (number 6)
+    (number 3)
+    (number 4)
+    (number 5)
+    (number 6)
+    (number 7)
+)
+
 
 (deffacts init-board
     (size 8)
